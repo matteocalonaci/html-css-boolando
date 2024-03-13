@@ -1,0 +1,418 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+
+header {
+    background-color: orangered;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+nav>.column {
+    display: flex;
+    align-items: center;
+    width: calc(100% / 3);
+    min-height: 3rem;
+    background-color: orangered;
+}
+
+.sx {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: orange;
+}
+
+.dx {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+    width: 12rem;
+}
+
+.link>a {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    width: 5rem;
+    color: white;
+}
+
+.centre {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 2rem;
+    min-width: 10rem;
+    background-image: url(../IMG/boolean-logo.png);
+    background-size: cover;
+}
+
+/* main */
+
+main {
+    background-color: rgba(127, 255, 212, 0);
+    height: auto;
+
+}
+
+/* prima card */
+.container {
+    background-color: rgba(245, 245, 220, 0);
+    max-width: 70rem;
+    min-height: 10rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 3rem;
+    margin-left: 4.85rem;
+}
+
+.card1 {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.card2 {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 3rem;
+    margin-left: 4.85rem;
+}
+
+.card3 {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.card4 {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 3rem;
+    margin-left: 4.8rem;
+    margin-right: 4.5rem;
+}
+
+.card5 {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.ph {
+    width: 20rem;
+    min-height: 30em;
+    background-image: url(../IMG/2.webp);
+    background-size: cover;
+    position: relative;
+}
+
+.ph:hover {
+    background-image: url(../IMG/2b.webp);
+}
+
+.ph1 {
+    width: 20rem;
+    min-height: 30em;
+    background-image: url(../IMG/1.webp);
+    background-size: cover;
+    position: relative;
+}
+
+.ph1:hover {
+    background-image: url(../IMG/1b.webp);
+}
+
+.ph2 {
+    width: 20rem;
+    min-height: 30em;
+    background-image: url(../IMG/3.webp);
+    background-size: cover;
+    position: relative;
+}
+
+.ph2:hover {
+    background-image: url(../IMG/3b.webp);
+}
+
+.ph3 {
+    width: 20rem;
+    min-height: 30em;
+    background-image: url(../IMG/4.webp);
+    background-size: cover;
+    position: relative;
+}
+
+.ph3:hover {
+    background-image: url(../IMG/4b.webp);
+}
+
+.ph4 {
+    width: 20rem;
+    min-height: 30em;
+    background-image: url(../IMG/5.webp);
+    background-size: cover;
+    position: relative;
+}
+
+.ph4:hover {
+    background-image: url(../IMG/5b.webp);
+}
+
+.ph5 {
+    width: 20rem;
+    min-height: 30em;
+    background-image: url(../IMG/6.webp);
+    background-size: cover;
+    position: relative;
+}
+
+.ph5:hover {
+    background-image: url(../IMG/6b.webp);
+}
+
+
+.ph>.heart {
+    position: absolute;
+    top: 0.5rem;
+    right: 0;
+    padding: 0.5rem;
+    background-color: white;
+    color: black;
+}
+
+.ph1>.heart {
+    position: absolute;
+    top: 0.5rem;
+    right: 0;
+    padding: 0.5rem;
+    background-color: white;
+    color: black;
+}
+
+.ph2>.heart {
+    position: absolute;
+    top: 0.5rem;
+    right: 0;
+    padding: 0.5rem;
+    background-color: white;
+    color: black;
+}
+
+.ph3>.heart {
+    position: absolute;
+    top: 0.5rem;
+    right: 0;
+    padding: 0.5rem;
+    background-color: white;
+    color: black;
+}
+
+.ph4>.heart {
+    position: absolute;
+    top: 0.5rem;
+    right: 0;
+    padding: 0.5rem;
+    background-color: white;
+    color: black;
+}
+
+.ph5>.heart {
+    position: absolute;
+    top: 0.5rem;
+    right: 0;
+    padding: 0.5rem;
+    background-color: white;
+    color: black;
+}
+
+.heart:hover {
+    color: red;
+}
+
+.ph>.info {
+    position: absolute;
+    top: 25rem;
+    left: 0;
+    color: white;
+    margin-right: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ph1>.info {
+    position: absolute;
+    top: 25rem;
+    left: 0;
+    color: white;
+    margin-right: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ph2>.info {
+    position: absolute;
+    top: 25rem;
+    left: 0;
+    color: white;
+    margin-right: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ph3>.info {
+    position: absolute;
+    top: 25rem;
+    left: 0;
+    color: white;
+    margin-right: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ph4>.info {
+    position: absolute;
+    top: 25rem;
+    left: 0;
+    color: white;
+    margin-right: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ph5>.info {
+    position: absolute;
+    top: 25rem;
+    left: 0;
+    color: white;
+    margin-right: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ph>.info>.xcent {
+    background-color: red;
+    padding: 0.5rem;
+}
+
+
+
+.ph1>.info>.xcent {
+    background-color: red;
+    padding: 0.5rem;
+}
+
+.ph1>.info>.sos {
+    background-color: green;
+    padding: 0.5rem;
+}
+
+.ph2>.info>.xcent {
+    background-color: red;
+    padding: 0.5rem;
+}
+
+
+.ph3>.info>.xcent {
+    background-color: red;
+    padding: 0.5rem;
+}
+
+.ph3>.info>.sos {
+    background-color: green;
+    padding: 0.5rem;
+}
+
+.ph5>.info>.sos {
+    background-color: green;
+    padding: 0.5rem;
+}
+
+.caption {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7rem;
+    text-align: left;
+
+}
+
+.price {
+    color: red;
+}
+
+.sale {
+    color: black;
+    text-decoration: line-through;
+}
+
+.card1 {
+    float: left;
+}
+
+/* inizio footer */
+
+footer {
+    background-color: black;
+    height: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+    color: white;
+}
+
+.ending {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70rem;
+    height: 5rem;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.column-lf {
+    text-align: left;
+    width: 30rem;
+
+}
+
+.column-centre {
+    width: 31rem;
+    height: 1rem;
+}
+
+.column-rgt {
+    text-align: center;
+}
+
+.social {}
+
+.brend {
+    display: flex;
+    justify-content: space-between;
+}
