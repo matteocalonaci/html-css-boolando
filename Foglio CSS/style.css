@@ -8,6 +8,10 @@
 
 header {
     background-color: orangered;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+
 }
 
 nav {
@@ -77,6 +81,7 @@ nav>.column {
 
 main {
     background-color: rgba(127, 255, 212, 0);
+    padding-top: 5rem;
     height: auto;
 
 }
